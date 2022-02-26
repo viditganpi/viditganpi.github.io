@@ -1,19 +1,27 @@
 import React from 'react';
+import options from '../data/particleConfig';
+import Particles from "react-tsparticles";
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: '',
-      error: ''
+    particlesInit(main){
+        console.log(main);
+        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     };
-  }
-  render() {
+
+    particlesLoaded(container){
+        console.log(container);
+    };
+    
+    render() {
       return(
         <header id="fh5co-header" className="fh5co-cover js-fullheight" role="banner" style={{backgroundImage: "url(images/cover_bg_3.jpg)"}} data-stellar-background-ratio="0.5">
-            <div className="overlay"></div>
+            {/* <div className="overlay"></div> */}
+            <Particles
+                id="tsparticles"
+                init={this.particlesInit}
+                loaded={this.particlesLoaded}
+                options={options}
+                />
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 col-md-offset-2 text-center">
@@ -36,7 +44,7 @@ class Header extends React.Component {
             </div>
         </header>
       );
-  }
+    }
 }
 
 export default Header;
