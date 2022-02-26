@@ -47,15 +47,15 @@ const options = {
         enable: true,
         outMode: "bounce",
         random: false,
-        speed: 6,
+        speed: 3,
         straight: false,
     },
     number: {
         density: {
-        enable: true,
-        area: 800,
+            enable: false,
+            area: 800,
         },
-        value: 80,
+        value: 100,
     },
     opacity: {
         value: 0.5,
