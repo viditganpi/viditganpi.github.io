@@ -1,0 +1,86 @@
+{
+    "skills" : [
+        {
+            "src" : "images/java.png",
+            "description" : "Java image"
+        },
+        {
+            "src" : "images/nodejs.png",
+            "description" : "Node image"
+        },
+        {
+            "src" : "images/typescriptimage.png",
+            "description" : "Typescript image"
+        },
+        {
+            "src" : "images/reactimage.png",
+            "description" : "React Image"
+        },
+        {
+            "src" :  "images/rubyonrails.png",
+            "description" : "Ruby on Rails image"
+        },
+        {
+            "src" : "images/pythonimage.png",
+            "description" : "Python Image"
+        },
+        {
+            "src" : "images/golang.png",
+            "description" : "Golang image"
+        },
+        {
+            "src" : "images/mysql.png",
+            "description" : "MySQL image"
+        },
+        {
+            "src" : "images/postgres.png",
+            "description" : "Postgres image"
+        },
+        {
+            "src" : "images/redis.jpeg",
+            "description" : "Redis Image"
+        },
+        {
+            "src" : "images/mongodbimage.png",
+            "description" : "MongoDB image"
+        },
+        {
+            "src" : "images/docker.png",
+            "description" : "Docker image"
+        },
+        {
+            "src" : "images/kubernetes.png",
+            "description" : "Kubernetes image"
+        },
+        {
+            "src" : "images/gcpimage.png",
+            "description" : "GCP image"
+        },
+        {
+            "src" : "images/azureimage.png",
+            "description" : "Azure image"
+        }
+    ],
+    "workExperiences":[
+        {
+            "company" : "Microsoft - 2021 - Present",
+            "title" : "Software Development Engineer 2",
+            "description" : "Started working with the tech stack of Typescript, Node.js, React, C# on the 1JS effort to bring in various office clients under umbrella of one mega repository.Working on different aspects of tooling enabling the build and deployment of the code. Working on constantly improving and enhanicing this tooling, to handle repositories handing repo sizes of around 30 GBs and continuously growing."
+        },
+        {
+            "company": "Gojek - 2019 - 2021",
+            "title": "Software Development Engineer 2",
+            "description": "Worked on Restful microsoervices to enhance developer productivity and standarize infrastructure provisioning. Worked on services based on Ruby on Rails, Golang, Python using data layer in Postgres. These services enabled canary deployments for kubernetes based workloads, reducing MTD for the services. Designed and implemented microservices for the Gojek platform to standarize the VM and cluster provisioning. Also worked on services enabling VM deployment and an interesting project involved working on multiple services enabling ephimeral infrastructure and doing major cost savings."
+        },
+        {
+            "company": "Paytm - 2018 - 2019",
+            "title": "Software Engineer",
+            "description": "Built the insurance platform for the Paytm ecosystem from scratch. Worked on designing and implementing a few Restful microservices for the platform. These servicees were implemented on Nodejs and Java stacks, with a data layer based on mysql, redis and elastic search. Integrated multiple insurance providers into the system, rolling out product offerings like two wheeler. four wheeler, life and health insurance."
+        },
+        {
+            "company": "Ola - 2017 - 2018",
+            "title": "Software Development Engineer",
+            "description": "Got introduced to the real world programming projects and got to work on the parterner onboarding service based on Nodejs using MongoDB, redis as the data layer. Implemented various flows for the onboarding process, including onboarding for auto drivers, international partners etc. Added self serve flows for the driver partners like modification of contact details etc."
+        }
+    ]
+}

@@ -1,7 +1,14 @@
 import React from "react";
-
+const data = require('../data/data.json');
 class Skills extends React.Component{
     render(){
+        const skillList = data.skills.map((skill) => {
+            return(
+                <div className="col-md-3 col-sm-6 col-xs-12" key={skill.src}>
+                    <img className="chart rounded" src={skill.src} alt={skill.description}/>
+                </div>
+            );
+        });
         return(
             <div id="fh5co-skills" className="animate-box">
                 <div className="container">
@@ -11,51 +18,7 @@ class Skills extends React.Component{
                         </div>
                     </div>
                     <div className="row row-pb-md">
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/java.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/nodejs.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 text-center">
-                            <img className="chart rounded" src="images/typescriptimage.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 text-center">
-                            <img className="chart rounded" src="images/reactimage.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/rubyonrails.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/pythonimage.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/golang.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/mysql.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/postgres.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/redis.jpeg"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/mongodbimage.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/docker.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/kubernetes.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/gcpimage.png"/>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12">
-                            <img className="chart rounded" src="images/azureimage.png"/>
-                        </div>
+                        {skillList}
                     </div>
                 </div>
             </div>
