@@ -5,6 +5,7 @@ import About from './components/About';
 import WorkExperience from './components/WorkExperience';
 import Skills from './components/Skills';
 import Blog from './components/Blog';
+import Scroller from './components/TopScroll';
 
 ReactDOM.render(
   <div> 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <WorkExperience />
     <Skills />
     <Blog />
+    <Scroller />
   </div>,
   document.querySelector('#root')
 );
