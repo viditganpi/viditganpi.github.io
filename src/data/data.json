@@ -41,7 +41,7 @@
             "description" : "Redis Image"
         },
         {
-            "src" : "images/mongodbimage.png",
+            "src" : "images/mongodbimage.jpeg",
             "description" : "MongoDB image"
         },
         {
@@ -81,6 +81,32 @@
             "company": "Ola - 2017 - 2018",
             "title": "Software Development Engineer",
             "description": "Got introduced to the real world programming projects and got to work on the parterner onboarding service based on Nodejs using MongoDB, redis as the data layer. Implemented various flows for the onboarding process, including onboarding for auto drivers, international partners etc. Added self serve flows for the driver partners like modification of contact details etc."
+        }
+    ],
+    "education":[
+        {
+            "title": "B.Tech - Computer Science",
+            "institution": "Jaypee Institute of information technology - 2013 - 2017",
+            "description": "Graduated in computer science and engineering with a 9.1 GPA"
+        },
+        {
+            "title": "Higher Secondary",
+            "institution": "Ryan International School - 2011 - 2013",
+            "description": "Graduated CBSE board with 92.4%"
+        },
+        {
+            "title": "Senior Secondary",
+            "institution": "Saint Paul Senior School - 2011",
+            "description": "Graduated CBSE board with 10 CGPA"
+        }
+    ],
+    "blogs":[
+        {
+            "title":"Reducing skyrocketing CPU usage",
+            "date":"Jan. 5th 2021",
+            "description":"Debugging and resolving high CPU usage in applications that use Python 2 multiprocessing.",
+            "link":"https://medium.com/gojekengineering/how-we-reduced-skyrocketing-cpu-usage-5d9d07a3ff6e",
+            "src": "images/processors.jpeg"
         }
     ]
 }

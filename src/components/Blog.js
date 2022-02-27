@@ -1,33 +1,42 @@
 import React from "react";
-
+const data = require("../data/data.json");
 class Blog extends React.Component{
     render(){
-        return(
-            <div id="fh5co-blog">
-                <div className="container">
-                    <div className="row animate-box">
-                        <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                            <h2>Blog</h2>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="justify-content-center col-md-4">
-                            <div className="fh5co-blog animate-box">
-                                <a href="https://medium.com/gojekengineering/how-we-reduced-skyrocketing-cpu-usage-5d9d07a3ff6e" className="blog-bg" style={{backgroundImage: "url(images/processors.jpeg)"}}></a>
-                                <div className="blog-text">
-                                    <span className="posted_on">Jan. 5th 2021</span>
-                                    <h3>Reducing skyrocketing CPU usage</h3>
-                                    <p>Debugging and resolving high CPU usage in applications that use Python 2 multiprocessing.</p>
-                                    <ul className="stuff">
-                                        <li><a href="https://medium.com/gojekengineering/how-we-reduced-skyrocketing-cpu-usage-5d9d07a3ff6e">Read More<i className="icon-arrow-right22"></i></a></li>
-                                    </ul>
-                                </div> 
-                            </div>
+        const blogList = data.blogs.map((blog) => {
+            return(
+                <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft" key={blog.title}>
+                    <div className="blog-entry">
+                        <a href={blog.link} target="_blank" className="blog-img"><img src={blog.src} className="img-responsive" alt={blog.description}/></a>
+                        <div className="desc">
+                            <span><small>{blog.date} </small> | <small> {blog.title} </small></span>
+                            <h3><a href={blog.link} target="_blank">{blog.title}</a></h3>
+                            <p>
+                                {blog.description}
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            );
+        });
+        return(
+            <section className="colorlib-blog" data-section="blog">
+                <div className="colorlib-narrow-content">
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <span className="heading-meta">Read</span>
+                            <h2 className="colorlib-heading">Recent Blog</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        {blogList}
+                    </div>
+                    <div className="row">
+                        <div className="col-md-12 animate-box">
+                            <p><a href="#" data-nav-section="blog" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         );
     }
 }

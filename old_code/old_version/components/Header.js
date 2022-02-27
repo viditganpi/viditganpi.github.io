@@ -1,5 +1,5 @@
 import React from 'react';
-import options from '../data/particleConfig';
+import options from '../../data/particleConfig';
 import Particles from "react-tsparticles";
 
 class Header extends React.Component {
