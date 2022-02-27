@@ -1,7 +1,7 @@
 const options = {
     fpsLimit: 120,
     interactivity: {
-    events: {
+    events: {   
         onClick: {
         enable: true,
         mode: "push",
@@ -29,44 +29,44 @@ const options = {
     },
     },
     particles: {
-    color: {
-        value: "#ffffff",
-    },
-    links: {
-        color: "#ffffff",
-        distance: 150,
-        enable: true,
-        opacity: 0.5,
-        width: 1,
-    },
-    collisions: {
-        enable: true,
-    },
-    move: {
-        direction: "none",
-        enable: true,
-        outMode: "bounce",
-        random: false,
-        speed: 3,
-        straight: false,
-    },
-    number: {
-        density: {
-            enable: false,
-            area: 800,
+        color: {
+            value: "#000000",
         },
-        value: 100,
-    },
-    opacity: {
-        value: 0.5,
-    },
-    shape: {
-        type: "circle",
-    },
-    size: {
-        random: true,
-        value: 5,
-    },
+        links: {
+            color: "#000000",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+        },
+        collisions: {
+            enable: true,
+        },
+        move: {
+            direction: "none",
+            enable: true,
+            outMode: "bounce",
+            random: false,
+            speed: 3,
+            straight: false,
+        },
+        number: {
+            density: {
+                enable: false,
+                area: 800,
+            },
+            value: 100,
+        },
+        opacity: {
+            value: 0.5,
+        },
+        shape: {
+            type: "circle",
+        },
+        size: {
+            random: true,
+            value: 5,
+        },
     },
     detectRetina: true,
 }

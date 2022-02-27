@@ -1,27 +1,29 @@
-import React from "react";
+import React from 'react';
 const data = require('../data/data.json');
+
 class Skills extends React.Component{
     render(){
         const skillList = data.skills.map((skill) => {
             return(
                 <div className="col-md-3 col-sm-6 col-xs-12" key={skill.src}>
-                    <img className="chart rounded" src={skill.src} alt={skill.description}/>
+                    <img className="chart img-circle" src={skill.src} alt={skill.description}/>
                 </div>
             );
         });
         return(
-            <div id="fh5co-skills" className="animate-box">
-                <div className="container">
+            <section className="colorlib-skills" data-section="skills">
+                <div className="colorlib-narrow-content">
                     <div className="row">
-                        <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                            <h2>Skills</h2>
+                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <span className="heading-meta">My Specialty</span>
+                            <h2 className="colorlib-heading animate-box">My Skills</h2>
                         </div>
                     </div>
                     <div className="row row-pb-md">
                         {skillList}
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }
