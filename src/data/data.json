@@ -65,22 +65,26 @@
         {
             "company" : "Microsoft - 2021 - Present",
             "title" : "Software Development Engineer 2",
-            "description" : "Started working with the tech stack of Typescript, Node.js, React, C# on the 1JS effort to bring in various office clients under umbrella of one mega repository.Working on different aspects of tooling enabling the build and deployment of the code. Working on constantly improving and enhanicing this tooling, to handle repositories handing repo sizes of around 30 GBs and continuously growing."
+            "description" : "Started working with the tech stack of Typescript, Node.js, React, C# on the 1JS effort to bring in various office clients under umbrella of one mega repository.Working on different aspects of tooling enabling the build and deployment of the code. Working on constantly improving and enhanicing this tooling, to handle repositories handing repo sizes of around 30 GBs and continuously growing.",
+            "src": "images/microsoft.svg"
         },
         {
             "company": "Gojek - 2019 - 2021",
             "title": "Software Development Engineer 2",
-            "description": "Worked on Restful microsoervices to enhance developer productivity and standarize infrastructure provisioning. Worked on services based on Ruby on Rails, Golang, Python using data layer in Postgres. These services enabled canary deployments for kubernetes based workloads, reducing MTD for the services. Designed and implemented microservices for the Gojek platform to standarize the VM and cluster provisioning. Also worked on services enabling VM deployment and an interesting project involved working on multiple services enabling ephimeral infrastructure and doing major cost savings."
+            "description": "Worked on Restful microsoervices to enhance developer productivity and standarize infrastructure provisioning. Worked on services based on Ruby on Rails, Golang, Python using data layer in Postgres. These services enabled canary deployments for kubernetes based workloads, reducing MTD for the services. Designed and implemented microservices for the Gojek platform to standarize the VM and cluster provisioning. Also worked on services enabling VM deployment and an interesting project involved working on multiple services enabling ephimeral infrastructure and doing major cost savings.",
+            "src": "images/gojek.png"
         },
         {
             "company": "Paytm - 2018 - 2019",
             "title": "Software Engineer",
-            "description": "Built the insurance platform for the Paytm ecosystem from scratch. Worked on designing and implementing a few Restful microservices for the platform. These servicees were implemented on Nodejs and Java stacks, with a data layer based on mysql, redis and elastic search. Integrated multiple insurance providers into the system, rolling out product offerings like two wheeler. four wheeler, life and health insurance."
+            "description": "Built the insurance platform for the Paytm ecosystem from scratch. Worked on designing and implementing a few Restful microservices for the platform. These servicees were implemented on Nodejs and Java stacks, with a data layer based on mysql, redis and elastic search. Integrated multiple insurance providers into the system, rolling out product offerings like two wheeler. four wheeler, life and health insurance.",
+            "src": "images/paytm.svg"
         },
         {
             "company": "Ola - 2017 - 2018",
             "title": "Software Development Engineer",
-            "description": "Got introduced to the real world programming projects and got to work on the parterner onboarding service based on Nodejs using MongoDB, redis as the data layer. Implemented various flows for the onboarding process, including onboarding for auto drivers, international partners etc. Added self serve flows for the driver partners like modification of contact details etc."
+            "description": "Got introduced to the real world programming projects and got to work on the parterner onboarding service based on Nodejs using MongoDB, redis as the data layer. Implemented various flows for the onboarding process, including onboarding for auto drivers, international partners etc. Added self serve flows for the driver partners like modification of contact details etc.",
+            "src": "images/ola.jpeg"
         }
     ],
     "education":[

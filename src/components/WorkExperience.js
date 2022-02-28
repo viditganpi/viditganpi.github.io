@@ -12,8 +12,13 @@ class WorkExperience extends React.Component{
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft" key={work.company}>
                     <div className="timeline-entry-inner">
 
-                    <div className={colorClass}>
-                        <i className="icon-pen2"></i>
+                    <div>
+                        {/* <i className="icon-pen2"></i> */}
+                        <img src={work.src} alt="MS logo" style={{
+                        overflow: "hidden",
+                        display: "block",
+                        float: "left",
+                        }}/>
                     </div>
 
                     <div className="timeline-label">
