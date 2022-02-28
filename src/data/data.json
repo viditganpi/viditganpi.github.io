@@ -5,31 +5,31 @@
             "description" : "Java image"
         },
         {
-            "src" : "images/nodejs.png",
+            "src" : "images/nodeiamge.png",
             "description" : "Node image"
         },
         {
-            "src" : "images/typescriptimage.png",
+            "src" : "images/typescriptimg.png",
             "description" : "Typescript image"
         },
         {
-            "src" : "images/reactimage.png",
+            "src" : "images/reactimg.png",
             "description" : "React Image"
         },
         {
-            "src" :  "images/rubyonrails.png",
+            "src" :  "images/ror.png",
             "description" : "Ruby on Rails image"
         },
         {
-            "src" : "images/pythonimage.png",
+            "src" : "images/pythonimg.png",
             "description" : "Python Image"
         },
         {
-            "src" : "images/golang.png",
+            "src" : "images/goimage.png",
             "description" : "Golang image"
         },
         {
-            "src" : "images/mysql.png",
+            "src" : "images/mysqlimage.png",
             "description" : "MySQL image"
         },
         {
@@ -41,11 +41,11 @@
             "description" : "Redis Image"
         },
         {
-            "src" : "images/mongodbimage.jpeg",
+            "src" : "images/mongoimage.jpeg",
             "description" : "MongoDB image"
         },
         {
-            "src" : "images/docker.png",
+            "src" : "images/dockerimg.png",
             "description" : "Docker image"
         },
         {
@@ -53,7 +53,7 @@
             "description" : "Kubernetes image"
         },
         {
-            "src" : "images/gcpimage.png",
+            "src" : "images/gocp.png",
             "description" : "GCP image"
         },
         {
