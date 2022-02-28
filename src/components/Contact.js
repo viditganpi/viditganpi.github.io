@@ -22,14 +22,14 @@ class Contact extends React.Component{
                                 </div>
                             </div>
 
-                            <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                            {/* <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                                 <div className="colorlib-icon">
                                     <i className="icon-map"></i>
                                 </div>
                                 <div className="colorlib-text">
                                     <p>Ghaziabad, Uttar Pradesh</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
