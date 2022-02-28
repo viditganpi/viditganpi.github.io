@@ -5,8 +5,13 @@ class Skills extends React.Component{
     render(){
         const skillList = data.skills.map((skill) => {
             return(
-                <div className="col-md-3 col-sm-6 col-xs-12" key={skill.src}>
-                    <img className="chart img-circle" src={skill.src} alt={skill.description}/>
+                <div className="col-md-3 col-sm-6 col-xs-12" key={skill.src} style={{alignItems: "center"}}>
+                    {/* <div className='chart img-circle' style={{background:`url(${skill.src})`}}></div> */}
+                    <img className="chart img-circle" style={{
+                        overflow: "hidden", 
+                        display: "block",
+                        marginLeft: "auto",
+                        marginRight: "auto"}}src={skill.src} alt={skill.description}/>
                 </div>
             );
         });
