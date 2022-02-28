@@ -30,11 +30,11 @@ class Blog extends React.Component{
                     <div className="row">
                         {blogList}
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-md-12 animate-box">
                             <p><a href="#" data-nav-section="blog" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload"></i></a></p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         );

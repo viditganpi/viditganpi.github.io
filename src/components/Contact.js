@@ -3,12 +3,12 @@ import React from "react";
 class Contact extends React.Component{
     render(){
         return(
-            <section className="colorlib-contact" data-section="contact">
+            <section className="colorlib-contact" data-section="contact" style={{backgroundImage: "url(images/contactus.jpeg)", backgroundSize:"cover"}}>
                 <div className="colorlib-narrow-content">
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                            <span className="heading-meta">Get in Touch</span>
-                            <h2 className="colorlib-heading">Contact</h2>
+                            <span className="heading-meta" style={{color: "#fff"}}>Get in Touch</span>
+                            <h2 className="colorlib-heading" style={{color: "#fff"}}>Contact</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -18,7 +18,7 @@ class Contact extends React.Component{
                                     <i className="icon-google-plus"></i>
                                 </div>
                                 <div className="colorlib-text">
-                                    <p><a href="#">viditganpi10@gmail.com</a></p>
+                                    <p style={{color: "#fff"}}>viditganpi10@gmail.com</p>
                                 </div>
                             </div>
 
