@@ -3,7 +3,7 @@ import React from "react";
 class Contact extends React.Component{
     render(){
         return(
-            <section className="colorlib-contact" data-section="contact" style={{backgroundImage: "url(images/contactus.jpeg)", backgroundSize:"cover"}}>
+            <section className="colorlib-contact" data-section="contact" style={{backgroundImage: "url(images/contactus.jpeg)", backgroundSize:"100% 100%"}}>
                 <div className="colorlib-narrow-content">
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
