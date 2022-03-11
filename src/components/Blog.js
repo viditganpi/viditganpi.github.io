@@ -6,7 +6,9 @@ class Blog extends React.Component{
             return(
                 <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft" key={blog.title}>
                     <div className="blog-entry">
-                        <a href={blog.link} target="_blank" className="blog-img"><img src={blog.src} className="img-responsive" alt={blog.description}/></a>
+                        <a href={blog.link} target="_blank" className="blog-img">
+                            <img src={blog.src} className="img-responsive" width alt={blog.description} style={{height:"200px"}} />
+                        </a>
                         <div className="desc">
                             <span><small>{blog.date} </small> | <small> {blog.title} </small></span>
                             <h3><a href={blog.link} target="_blank">{blog.title}</a></h3>

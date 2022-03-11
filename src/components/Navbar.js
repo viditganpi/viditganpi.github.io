@@ -22,7 +22,6 @@ class NavBar extends React.Component{
 								<li><a href="#" data-nav-section="experience">Experience</a></li>
 								{/* <li><a href="#" data-nav-section="work">Work</a></li> */}
 								<li><a href="#" data-nav-section="blog">Blog</a></li>
-								<li><a href="#" data-nav-section="contact">Contact</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -40,6 +39,7 @@ class NavBar extends React.Component{
                             <ul>
                                 <li><a href="https://twitter.com/vidit_m100" target="_blank"><i className="icon-twitter2"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/mathurvidit/" target="_blank"><i className="icon-linkedin2"></i></a></li>
+								<li><a href="mailto:viditganpi10@gmail.com" target="_blank" style={{color:"#db4a39"}}><i className="icon-google-plus2"></i></a></li>
                                 <li><a href="https://github.com/viditganpi" target="_blank" style={{color: "black"}}><i className="icon-github"></i></a></li>
                             </ul>
                         </p>

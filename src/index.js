@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
 
 ReactDOM.render(
   <div> 
@@ -19,7 +18,6 @@ ReactDOM.render(
           <Education />
           <WorkExperience />
           <Blog />
-          <Contact />
       </div>
   </div>,
   document.querySelector('#root')

@@ -111,6 +111,13 @@
             "description":"Debugging and resolving high CPU usage in applications that use Python 2 multiprocessing.",
             "link":"https://medium.com/gojekengineering/how-we-reduced-skyrocketing-cpu-usage-5d9d07a3ff6e",
             "src": "images/processors.jpeg"
+        },
+        {
+            "title":"A Ready Reckoner To Upgrade From Python 2 to Python 3",
+            "date":"Mar. 5th 2022",
+            "description":"A touch upon how to migrate your environment and service codebases from Python 2 to Python 3.",
+            "link":"https://medium.com/geekculture/a-ready-reckoner-to-upgrade-from-python-2-to-python-3-fab370515c70",
+            "src": "images/pythonmigblog.jpeg"
         }
     ]
 }
